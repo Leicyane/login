@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Roboto:wght@100&display=swap');
+body{
+    background-image: url(/img/ceu-estrelado-sobre-a-cidade_23-2151642603.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+.login-container{
+  background-color: white;
+  width: 20%;
+  height: 50%;
+  padding: 30px;
+  border-radius: 1rem;
+}
+.formulario{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+}
+label{
+  font-weight: 600;
+}
+input{
+  height:2rem ;
+}
+.btn-login{
+  height: 2rem;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: cadetblue;
+  border-radius: 0.5rem;
+  border-style: dotted;
+  border-color: azure;
+  transition-duration: 0.4s;
+}
+.btn-login:hover{
+  background-color:black;
+  color: aliceblue;
+}
+.icons-redessociais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.icons-redessociais img{
+  width: 30px;
+  height: 30px;
+  border-radius: 3rem;
+}
+#social-container p{
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#forgot-pass{
+  font-weight: 700;
+}
